@@ -1,0 +1,75 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    height: 100vh;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    background-color: #333533;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffd100;
+    padding: 50px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:;
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6d6d6;
+}
+
+button {
+    color: #d6d6d6;
+    padding: 20px 30px;
+    font-size: 28px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#rollBtn {
+    background-color: #202020;
+}
+
+#resetBtn {
+    background-color: #403d39;
+}
+
+button:active {
+    outline: none;
+    color: #202020;
+    background-color: #d6d6d6;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
